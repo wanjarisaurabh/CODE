@@ -66,8 +66,8 @@ vector<vector<int>> triplet(int n, vector<int> &arr) {
                 sort(temp.begin(), temp.end());
                 st.insert(temp);
             }
-            hashset.insert(arr[j]);
-        }
+            hashset.insert(arr[j]);//this is because if we find for any element in the hash map it might
+        } //return us the same index  element so that we can get a duplicate triplet
     }
 
     //store the set in the answer:
