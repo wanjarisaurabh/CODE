@@ -1,5 +1,7 @@
 
 //similar to finding the minimum
+//find the minimum element and their correspoinding value
+
 
 #include <bits/stdc++.h>
 using namespace std;
