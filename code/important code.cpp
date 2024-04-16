@@ -1,9 +1,9 @@
 //sort in revers order 
 
-sort(arr.rbegin(),arr,rend());
+sort(arr.rbegin(),arr,rend());//revers sort 
 
 //to add all the value  of array elements to a variable sum
 
 accumulate(arr.begin(), arr.end(),0);
 
-
+ vector < vector < int >> rotated(n, vector < int > (n, 0));// initilize the whole 2d array with 0
