@@ -64,7 +64,6 @@ int findMedian(vector<vector<int>> &A)
   while (low <= high)
   {
     int mid = (low + high) >> 1;
-    cout<<mid<<endl;
     int cnt = 0;
     for (int i = 0; i < n; i++)
     {

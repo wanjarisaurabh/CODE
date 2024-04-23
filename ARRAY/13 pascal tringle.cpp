@@ -19,16 +19,16 @@ int nCr(int n, int r) {
 //now for second varition, wherewe just need to print the particular line 
 
 
-// int nCr(int n, int r) {
-//     long long res = 1;
+int nCr(int n, int r) {
+    long long res = 1;
 
-//     // calculating nCr:
-//     for (int i = 0; i < r; i++) {
-//         res = res * (n - i);
-//         res = res / (i + 1);
-//     }
-//     return (res);
-// }
+    // calculating nCr:
+    for (int i = 0; i < r; i++) {
+        res = res * (n - i);
+        res = res / (i + 1);
+    }
+    return (res);
+}
 
 
 //it can be donw with this but the TC BECOME N* R
