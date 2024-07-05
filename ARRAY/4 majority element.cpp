@@ -96,7 +96,7 @@ int majorityElement(vector<int> v) {
         }
         else if (el == v[i]) cnt++;
         else cnt--;
-    }
+    }//this code code only tell u major element of array
 
     //checking if the stored element
     // is the majority element:

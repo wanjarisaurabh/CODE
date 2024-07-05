@@ -1,7 +1,4 @@
 //brute 
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -69,9 +66,13 @@ int main()
 
 
 
+
+
+
+
+
+
 //better 
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -125,10 +126,7 @@ int main()
 
 
 
-//optimal 
-
-
-
+optimal 
 #include <bits/stdc++.h>
 using namespace std;
 

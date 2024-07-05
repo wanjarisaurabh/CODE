@@ -1,33 +1,3 @@
-
-//ayushi didi walmart girls
-
-class Solution {
-public:
-    vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        vector<vector<int>> res;
-        if(intervals.size()==0){
-        }      
-        
-        sort(intervals.begin(), intervals.end(),[](vector<int> &a, vector<int> &b){
-            return a[0] < b[0];
-        });
-        vector<int> curr=intervals[0];//curr ke under hm first interval dal rehe hai 
-        
-        for(int i=1;i<intervals.size();i++){
-            if(curr[1]<intervals[i][0]){//current ka end and  next interval ki start 
-                res.push_back(curr);
-                curr=intervals[i];
-            }else{
-                curr[1]=max(curr[1], intervals[i][1]);//interval ke end ki valur ko comapare kar rahe hai 
-            }
-        }
-        
-        res.push_back(curr);
-        return res;
-    }
-};
-
-
 //strivers 
 //brute force -- 2n + nlon(n)
 #include<bits/stdc++.h>
@@ -77,9 +47,6 @@ int main()
 
 
 //optimal -- log(n)+n
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
 

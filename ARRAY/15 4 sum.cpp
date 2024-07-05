@@ -81,7 +81,7 @@ vector<vector<int>> fourSum(vector<int>& nums, int target) {
                     st.insert(temp);
                 }
                 // put the kth element into the hashset:
-                hashset.insert(nums[k]);
+                hashset.insert(nums[k]);//similar to 3 sum 
             }
         }
     }
@@ -107,9 +107,6 @@ int main()
 }
 
 //optimall
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
 

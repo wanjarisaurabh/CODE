@@ -1,6 +1,4 @@
 //brute force 
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -68,10 +66,9 @@ int main()
 }
 
 
+
+
 //optimall
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
 

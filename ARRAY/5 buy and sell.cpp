@@ -1,13 +1,5 @@
-
-
-
-
-//buy and sell problrmmm 
-
+//max sub array sum
 //brute force 
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -62,8 +54,6 @@ int main()
 
 
 //optimalll  solution
-
-
 #include<bits/stdc++.h>
 using namespace std;
 

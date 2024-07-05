@@ -1,11 +1,5 @@
-
-
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
-
 int solve(vector<int>& a) {
     int maxLen = 0;
 
@@ -31,7 +25,6 @@ int solve(vector<int>& a) {
 
     return maxLen;
 }
-
 int main() {
     vector<int> a = {9, -3, 3, -1, 6, -5};
     cout << solve(a) << endl;

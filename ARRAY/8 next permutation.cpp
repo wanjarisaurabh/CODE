@@ -1,10 +1,5 @@
-
-
 //next permutation 
-
-
 //code by ayushi singh,walmart girl
-
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {

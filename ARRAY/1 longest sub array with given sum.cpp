@@ -1,11 +1,6 @@
 
 // longgest subarray with the given sum
-
-//brute 
-
-
-
-
+//brute
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -14,11 +14,7 @@ int nCr(int n, int r) {
     }
     return (res);
 }
-
-
 //now for second varition, wherewe just need to print the particular line 
-
-
 int nCr(int n, int r) {
     long long res = 1;
 
@@ -30,7 +26,6 @@ int nCr(int n, int r) {
     return (res);
 }
 
-
 //it can be donw with this but the TC BECOME N* R
 
 //solution is in the copy 
@@ -38,8 +33,6 @@ int nCr(int n, int r) {
 //3 VARIATION 
 
 //print the whole triangle
-
-
 //also in copy 
 
 //code for 3 

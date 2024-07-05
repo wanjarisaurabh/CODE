@@ -1,14 +1,6 @@
 
-
-
-
 //find the maximum sum  subarray in an array with all elements positive or negative 
-
-
 // kadans algoritham 
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
